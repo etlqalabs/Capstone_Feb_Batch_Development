@@ -100,12 +100,10 @@ class DataTransformation:
 
 if __name__ == "__main__":
     trfRef = DataTransformation()
-    '''
-    
     trfRef.transform_filter_sales_data()
     trfRef.transform_router_sales_data_High_region()
+    trfRef.transform_router_sales_data_Low_region()
     trfRef.transform_aggregator_sales_data()
     trfRef.transform_Joiner_sales_product_stores()
     trfRef.transform_aggregator_inventory_level()
-    '''
     trfRef.transform_Joiner_sales_product_stores()
